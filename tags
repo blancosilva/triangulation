@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.2	//
+CSDT	triangle.scm	/^(define CSDT constrained-steiner-delaunay-triangulation)$/;"	f
+DT	triangle.scm	/^(define DT delaunay-triangulation)$/;"	f
+FIX	triangle.scm	/^(define-macro (FIX . rest)$/;"	f
+FLOAT	triangle.scm	/^(define-macro (FLOAT . rest) $/;"	f
+GENERIC	triangle.scm	/^(define-macro (GENERIC . rest)$/;"	f
+MACSDT	triangle.scm	/^(define MACSDT minimum-angle-constrained-steiner-delaunay-triangulation)$/;"	f
+a	triangle.scm	/^(define a (read-file "PolyFiles\/nasa.poly"))$/;"	f
+add-element-to-collection	triangle.scm	/^(define (add-element-to-collection set element)$/;"	f
+add-elements-to-collection	triangle.scm	/^(define (add-elements-to-collection set . elements)$/;"	f
+add-squares	triangle.scm	/^(define  (add-squares x y) (declare (flonum)) (+ (* x x) (* y y)))$/;"	f
+b	triangle.scm	/^(define b $/;"	f
+change-edge-pointers	triangle.scm	/^(define (change-edge-pointers edge old-pointer new-pointer)$/;"	f
+change-triangle-pointers	triangle.scm	/^(define (change-triangle-pointers triangle old-pointer new-pointer)$/;"	f
+circle-functional	triangle.scm	/^(define (circle-functional vertex-1 vertex-2 vertex-3)$/;"	f
+collection	triangle.scm	/^(define (collection . elements)$/;"	f
+collection-length	triangle.scm	/^(define collection-length Dvector-length)$/;"	f
+collection-ref	triangle.scm	/^(define collection-ref Dvector-ref)$/;"	f
+collection-set!	triangle.scm	/^(define collection-set! Dvector-set!)$/;"	f
+constrained-steiner-delaunay-triangulation	triangle.scm	/^(define (constrained-steiner-delaunay-triangulation parsed-poly-file)$/;"	f
+delaunay-triangulation	triangle.scm	/^(define (delaunay-triangulation parsed-poly-file)$/;"	f
+determinant	triangle.scm	/^(define (determinant a b c$/;"	f
+distance	triangle.scm	/^(define (distance point-1 point-2)$/;"	f
+edge	triangle.scm	/^(define-structure edge from to $/;"	f
+first-pointer-encroached-upon-by-point	triangle.scm	/^(define (first-pointer-encroached-upon-by-point point edge-collection)$/;"	f
+gnu-triangulation	triangle.scm	/^(define (gnu-triangulation triangulation file-name)$/;"	f
+initial-setup	triangle.scm	/^(define (initial-setup vertices holes)$/;"	f
+insert-point-in-triangulation	triangle.scm	/^(define (insert-point-in-triangulation point edges triangulation)$/;"	f
+is-corner-triangle?	triangle.scm	/^(define (is-corner-triangle? triangle edges)$/;"	f
+is-segment-in-edges?	triangle.scm	/^(define (is-segment-in-edges? segment set)$/;"	f
+legalize-edge	triangle.scm	/^(define (legalize-edge vertex-1 vertex-3 $/;"	f
+lex-max	triangle.scm	/^(define (lex-max point-1 point-2)$/;"	f
+lex-min	triangle.scm	/^(define (lex-min point-1 point-2)$/;"	f
+lex-sort	triangle.scm	/^(define (lex-sort point-1 point-2 point-3)$/;"	f
+make-point	triangle.scm	/^(define (make-point x y) (+ x (* +i y)))$/;"	f
+minimum-angle-constrained-steiner-delaunay-triangulation	triangle.scm	/^(define (minimum-angle-constrained-steiner-delaunay-triangulation$/;"	f
+modify-triangles-with-minimum-angle-greater-than-threshold	triangle.scm	/^(define (modify-triangles-with-minimum-angle-greater-than-threshold$/;"	f
+opposite-edge-pointer-to-vertex	triangle.scm	/^(define (opposite-edge-pointer-to-vertex vertex triangle)$/;"	f
+opposite-triangle-pointer-to-vertex	triangle.scm	/^(define (opposite-triangle-pointer-to-vertex vertex triangle)$/;"	f
+pi	triangle.scm	/^(define pi 3.14159265358979)$/;"	f
+point-inside-circumcircle?	triangle.scm	/^(define (point-inside-circumcircle? point vertex-1 vertex-2 vertex-3)$/;"	f
+point-inside-edge?	triangle.scm	/^(define (point-inside-edge? point vertex-1 vertex-2)$/;"	f
+point-inside-triangle?	triangle.scm	/^(define (point-inside-triangle? point vertex-1 vertex-2 vertex-3)$/;"	f
+point-support	triangle.scm	/^(define (point-support point triangulation)$/;"	f
+point-x	triangle.scm	/^(define point-x real-part)$/;"	f
+point-y	triangle.scm	/^(define point-y imag-part)$/;"	f
+read-file	triangle.scm	/^(define (read-file file-name)$/;"	f
+remove-exterior-triangles-from-triangulation	triangle.scm	/^(define (remove-exterior-triangles-from-triangulation $/;"	f
+replace-element-in-collection	triangle.scm	/^(define (replace-element-in-collection$/;"	f
+segment-functional	triangle.scm	/^(define (segment-functional vertex-1 vertex-2)$/;"	f
+solve-system	triangle.scm	/^(define (solve-system a00 a01 b0$/;"	f
+split-edge-by-point	triangle.scm	/^(define (split-edge-by-point point support edges triangulation)$/;"	f
+split-triangle-by-point	triangle.scm	/^(define (split-triangle-by-point point support edges triangulation)$/;"	f
+the-other-vertex	triangle.scm	/^(define (the-other-vertex vertex-1 vertex-2 triangle)$/;"	f
+triangle	triangle.scm	/^(define-structure triangle $/;"	f
+triangle-angles	triangle.scm	/^(define (triangle-angles triangle)$/;"	f
+triangle-circumcenter	triangle.scm	/^(define (triangle-circumcenter triangle)$/;"	f
+triangle-corner-angle	triangle.scm	/^(define (triangle-corner-angle triangle edges)$/;"	f
+triangle-minimum-angle	triangle.scm	/^(define (triangle-minimum-angle triangle)$/;"	f
+triangulation-thinner-second-class-triangle	triangle.scm	/^(define (triangulation-thinner-second-class-triangle $/;"	f
+wedge-angle	triangle.scm	/^(define (wedge-angle side-point-1 corner-point side-point-2)$/;"	f
+write-triangulation	triangle.scm	/^(define (write-triangulation edges file-name)$/;"	f
